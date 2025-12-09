@@ -19,10 +19,6 @@ a {
     transition: 0.3s;
 }
 
-a:hover {
-    color: #00FF99;
-}
-
 /* HEADER */
 .header {
     background: #0D3A71;
@@ -47,10 +43,6 @@ a:hover {
 nav a {
     margin-left: 1.5rem;
     font-weight: 600;
-}
-
-nav a:hover {
-    color: #00FF99;
 }
 
 nav a.active {
@@ -87,11 +79,6 @@ nav a.active {
     transition: 0.3s;
 }
 
-.btn-primary:hover {
-    background: #00FF99;
-    color: #1E1E2F;
-}
-
 /* CARDS USING FLOAT */
 .course-card, .benefit-card {
     background: #0D3A71;
@@ -103,12 +90,6 @@ nav a.active {
     border-left: 4px solid #00FF99;
     box-shadow: 0 4px 12px rgba(0,255,153,0.2);
     transition: all 0.3s ease;
-}
-
-.course-card:hover, .benefit-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 12px 25px rgba(0,255,153,0.4);
-    border-left-color: #FFDD00;
 }
 
 .course-card h3, .benefit-card h3 {
@@ -147,8 +128,4 @@ footer {
 
 footer a {
     color: #00FF99;
-}
-
-footer a:hover {
-    color: #FFDD00;
 }
